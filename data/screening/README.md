@@ -1,0 +1,1 @@
+Screening summary is included. The 10,260/11,280-record bibliographic master files and 1,282-row routing file are deliberately not redistributed in this package; licensing and source-record provenance must be checked first.

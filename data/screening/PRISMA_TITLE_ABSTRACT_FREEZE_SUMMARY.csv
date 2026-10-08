@@ -1,0 +1,11 @@
+metric,value
+high_confidence_population,278.0
+audit_sample_n,82.0
+audit_confirm_include,82.0
+audit_discrepancies,0.0
+audit_confirmation_rate,1.0
+TA_INCLUDE,892.0
+TA_EXCLUDE,234.0
+TA_UNCERTAIN,156.0
+advance_to_fulltext,1048.0
+stop_after_TA_exclusion,234.0

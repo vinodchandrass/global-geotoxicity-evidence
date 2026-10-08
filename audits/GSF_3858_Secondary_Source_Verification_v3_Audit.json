@@ -1,0 +1,16 @@
+{
+  "total_records": 3858,
+  "new_publisher_abstract_checks": 3,
+  "new_secondary_abstract_checks": 1,
+  "new_complete_abstract_texts_imported": 0,
+  "new_full_text_checks": 0,
+  "new_pooling_admissions": 0,
+  "prior_budhiganga_recheck_not_new_unique_study": true,
+  "record_ids": [
+    "19",
+    "23",
+    "25",
+    "35"
+  ],
+  "note": "Original secondary statuses preserved. Abstracts checked via cited pages, not downloaded or pasted into CSV."
+}

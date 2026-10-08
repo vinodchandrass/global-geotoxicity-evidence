@@ -1,0 +1,1 @@
+Derived country-wise evidence summary from the GSF frozen 892-record analytical subset. Retained for figure reproducibility; source publication metadata and the full screening/adjudication workflow are not included. Do not interpret record counts as contamination severity.

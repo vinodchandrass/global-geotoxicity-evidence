@@ -1,0 +1,1 @@
+Four frozen synthesis workbooks from D:\Water, preserved byte-for-byte. These files support scientific traceability but are not automatically validated or cleared for public redistribution. Review workbook sheets, embedded metadata, citations and any abstracts before making this repository public.
