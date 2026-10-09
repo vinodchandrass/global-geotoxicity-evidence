@@ -13,7 +13,8 @@ This repository supports the Geoscience Frontiers groundwater geotoxicity system
 - `figures/`: code-generated map (PNG 600dpi, PDF, SVG) and seven historical figure exports, retained for comparison, **not certified as final manuscript figure numbering**.
 - `basemap/`: Natural Earth country polygons; **not global aquifer boundaries**.
 - `tests/`: country counts, screening summary, and file checksum verification.
-- `selection_manifest.csv`: SHA-256 hashes and selection rationale.
+- `selection_manifest.csv`: historical selection manifest retained for provenance; its original checksums may differ from current release files.
+- `release_manifest_v1.0.0.csv`: current release inventory, file sizes, SHA-256 checksums and provenance categories.
 
 ## What the data mean
 The 892-record analytical subset is **not** the final review-wide included-study count. The 756 country-counting eligible records underpin the map. Country counts are research-intensity evidence, not contaminant concentration, aquifer risk, exceedance prevalence or groundwater stress. Contaminant categories overlap within publications. Pie sectors are normalised contaminant representations, not mutually exclusive study or sample percentages.
@@ -33,6 +34,15 @@ python tests/check_data.py
 python tests/check_package.py
 ```
 Outputs: `figures/GSF_Integrated_Global_Evidence_Code_600dpi.{png,pdf,svg}`.
+The `check_data.py` test validates selected country-data invariants
+and the existence of the three generated map exports.
+
+The `check_package.py` test validates file sizes and SHA-256
+checksums against `release_manifest_v1.0.0.csv`.
+
+These tests do not independently reproduce the complete PRISMA
+screening, source verification, dataset-independence adjudication,
+or quantitative synthesis.
 
 ## Licensing and citation
 The MIT licence applies to original software only; it does **not** override source-data or figure rights. Natural Earth geography is public domain (https://www.naturalearthdata.com/about/terms-of-use/). Citation metadata are provisional pending journal publication.
