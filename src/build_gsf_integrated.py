@@ -47,4 +47,5 @@ for ext in ['png','pdf','svg']:
     print(f, f.stat().st_size)
 plt.close(fig)
 from PIL import Image
-im=Image.open(P/'GSF_Integrated_Global_Evidence_Code_600dpi.png');print('Dimensions',im.size,'DPI',im.info.get('dpi'))
+im = Image.open(P / 'figures' / 'GSF_Integrated_Global_Evidence_Code_600dpi.png')
+print('Dimensions:', im.size, 'DPI:', im.info.get('dpi'))
