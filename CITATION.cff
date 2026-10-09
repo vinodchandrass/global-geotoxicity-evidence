@@ -2,11 +2,15 @@ cff-version: 1.2.0
 message: "If you use this figure or code, please cite this repository and the associated manuscript when published."
 title: "Global Groundwater Geotoxicity: Country-wise Research-Evidence Map"
 type: software
+
 authors:
-  - family-names: "Chandra"
-    given-names: "Vinod"
+  - given-names: "Vinod"
+    family-names: "Chandra S S"
+
+repository-code: "https://github.com/vinodchandrass/global-geotoxicity-evidence"
+
 version: "1.0.0"
-date-released: "2026-10-08"
+
 keywords:
   - groundwater
   - geotoxicity
